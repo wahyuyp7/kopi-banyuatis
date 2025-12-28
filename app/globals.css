@@ -1,43 +1,32 @@
 @import "tailwindcss";
 
+/* ===============================
+   Brand Color System
+================================ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #F7F3EE; /* krem kopi */
+  --foreground: #2B1E17; /* coklat kopi */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
+/* Dark mode (natural & controlled) */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #2B1E17; /* kopi gelap */
+    --foreground: #E6D9C9; /* krem terang */
   }
 }
+
+/* ===============================
+   Base Styles
+================================ */
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-/* Prevent Chrome Android forced dark mode */
-@media (prefers-color-scheme: dark) {
-  html {
-    background-color: #2B1E17; /* warna kopi gelap */
-  }
-
-  body {
-    background-color: #2B1E17;
-    color: #E6D9C9;
-  }
-}
-
