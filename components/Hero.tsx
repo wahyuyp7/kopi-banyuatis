@@ -27,7 +27,7 @@ export default function Hero() {
             <div className="relative max-w-6xl mx-auto px-6 py-24">
                 <h1 className="text-5xl md:text-7xl font-serif leading-[1.1] tracking-tight">
                     Kopi Banyuatis <br />
-                    Rasa Alam dari Pegunungan Bali
+                    Rasa Alam dari Desa Bali
                 </h1>
 
                 <p className="mt-8 text-xl text-[#E6D9C9]/90 max-w-2xl leading-relaxed">

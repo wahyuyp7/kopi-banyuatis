@@ -50,7 +50,7 @@ export default function Products() {
                     </h2>
                     <p className="text-lg text-[#6B4F42] leading-relaxed">
                         Setiap varian kopi dipilih dan diproses dengan penuh perhatian
-                        untuk menghadirkan karakter rasa terbaik dari pegunungan Banyuatis.
+                        untuk menghadirkan karakter rasa terbaik dari Desa Banyuatis.
                     </p>
                 </div>
 

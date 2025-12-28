@@ -31,7 +31,7 @@ export default function Footer() {
               Kopi Banyuatis
             </h3>
             <p className="text-base leading-relaxed max-w-sm">
-              Kopi premium dari pegunungan Banyuatis, Bali.
+              Kopi premium dari Desa Banyuatis, Bali.
               Diproses dengan penuh perhatian untuk menghadirkan
               aroma khas dan rasa seimbang di setiap cangkir.
             </p>

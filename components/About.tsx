@@ -6,14 +6,14 @@ export default function About() {
         {/* Text Content */}
         <div>
           <h2 className="text-3xl md:text-4xl font-serif tracking-tight mb-8">
-            Dari Pegunungan Banyuatis,
+            Dari Desa Banyuatis,
             <br className="hidden md:block" />
             Untuk Secangkir Kopi Berkualitas
           </h2>
 
           <p className="text-lg leading-relaxed text-[#4B362C] mb-6">
             Kopi Banyuatis berasal dari dataran tinggi Bali Utara,
-            tepatnya di wilayah pegunungan Banyuatis yang sejuk dan subur.
+            tepatnya di wilayah Desa Banyuatis yang sejuk dan subur.
             Di tempat inilah kopi tumbuh secara alami, perlahan,
             dan membentuk karakter rasa yang khas.
           </p>

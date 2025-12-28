@@ -26,7 +26,7 @@ export default function CTA() {
         {/* Subheadline */}
         <p className="text-lg md:text-xl text-[#E6D9C9]/90 leading-relaxed max-w-2xl mx-auto mb-14">
           Setiap biji Kopi Banyuatis membawa kehangatan alam
-          pegunungan Bali, diproses dengan penuh perhatian
+          Desa Bali, diproses dengan penuh perhatian
           untuk dinikmati di momen terbaikmu.
         </p>
 
