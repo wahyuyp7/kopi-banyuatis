@@ -34,3 +34,19 @@ body {
 :root {
   color-scheme: light dark;
 }
+
+/* Light surfaces inside dark mode */
+@media (prefers-color-scheme: dark) {
+  .surface-light {
+    background-color: #F7F3EE;
+    color: #2B1E17;
+  }
+
+  .surface-light h1,
+  .surface-light h2,
+  .surface-light h3,
+  .surface-light p,
+  .surface-light span {
+    color: #2B1E17;
+  }
+}

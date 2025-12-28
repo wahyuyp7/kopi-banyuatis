@@ -40,7 +40,7 @@ const products: Product[] = [
 
 export default function Products() {
     return (
-        <section className="py-28 bg-[#F7F3EE]">
+        <section className="surface-light py-28 bg-[#F7F3EE]">
             <div className="max-w-6xl mx-auto px-6">
 
                 {/* Section Header */}
