@@ -29,8 +29,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Prevent browser forced dark mode */
-:root {
-  color-scheme: light;
+/* Prevent Chrome Android forced dark mode */
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #2B1E17; /* warna kopi gelap */
+  }
+
+  body {
+    background-color: #2B1E17;
+    color: #E6D9C9;
+  }
 }
 
